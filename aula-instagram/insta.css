@@ -1,0 +1,155 @@
+* {
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration:  none;
+   font-family: sans-serif;
+   font-size: 14px;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../aula-instagram/img/sheilong.jpg");
+    background-size: 100%;
+    background-repeat:repeat;
+    display: flex;
+    justify-content: center;
+}
+.instagram-whapper {
+    display: flex;
+    align-items: center  ;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+}.instagram-phone img {
+    height: 50rem;
+
+}
+
+.instagram-continue {
+display: flex;
+align-items: center; /*horizontal*/
+justify-content: space-around; /*vertical*/
+background-color: transparent;
+flex-direction: column;
+width: 50%;
+min-height: 40rem;
+padding: 5px;
+
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem 0;
+    border: 2px solid lightgray;
+
+
+}
+.group:nth-child(1){
+min-height: 19rem;
+margin-block-end: 5rem;
+background-color: #ffffff);
+padding: 10px;
+}
+.group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem 0;
+    border: 2px solid lightgray;
+}
+.instagram-logo {
+    height: 5rem;
+}
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.profile-photo{
+    height: 10rem;
+}
+.instagram-loguin {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagram-logout {
+   
+    color: #0095f6;
+    margin: 1rem;
+    
+}
+.not-account {
+    color: rgb(160, 160, 160);
+}
+.link-blue {
+    color:#0095f6;
+}.get-th-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.app-download {
+    height:  3rem;
+    width: 10rem;
+    background-size: cover;
+}
+.app-download:nth-child(1){
+background-image: url(../aula-instagram/img/apple-button.png);
+}
+.app-download:nth-child(2){
+    background-image: url(../aula-instagram/img/googleplay-button.png)
+}
+
+/* media queries*/
+
+@media (max-width: 1024px) {
+    .instagram-whapper {
+    width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-whapper {
+        width: 90%;
+    }
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-continue {
+        width: 100%;
+    }
+}
+
